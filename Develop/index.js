@@ -129,7 +129,7 @@ const questions = [
         }
     }
 
-];
+]; 
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
